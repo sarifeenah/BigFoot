@@ -125,8 +125,35 @@ And can predict the most sightings will fall during the first quarter phase and 
 We can also predict the least sightings will take place outside of this range.								
 								
 Looking at our quartiles, we can determine that the least sightings occur during the periods with the least light, on the new moon								
-Remembering what we learned about the highest moon shine value in the set, 1.0 indicating the full moon, we also know that only one sighting ever occurred on the full moon.  And that was during a winter night with 98% cloud cover. 								
-This tells us the brightest and the darkest time of the lunar month are the least likely times to sneak a peek of our hairy friend.	
+Remembering what we learned about the highest moon light value is '1' = the full moon.
+That only one sighting ever occurred on the full moon and, that was during a winter night with 98% cloud cover. 					
+We know the brightest and the darkest time of the lunar month are the least likely times to sneak a peek of our hairy friend.	
+
+# Closing with a mystery
+
+One thing that caught my eye were two time periods.  The late 70's early 80's had a small bump in reported sightings that mirror a much larger bump in the early '00's as you can see below.  
+
+
+![Sightings over time](https://github.com/sarifeenah/BigFoot/blob/774e4f4e72f5b85e9fd9aea62235c2639834cc43/Sightings%20over%20time.png)
+
+I found this intriguing and decided to see if media had anything to do with the jumps. Thinking of the infamous Patterson-Gimlin film, I went to wikipedia and learned it was first released into the wild in 1967. A full decade before the time period in question.  My mind then scurried off to Harry and the Henderson's.  When I checked that title, I saw the series didn't air until the late 80's.  Outside of the time bump.  
+
+I realized I was on the precipice of yet another rabbit hole when I began searching the IMDB for terms like Bigfoot, Sasquatch and Yeti looking for some kind of star powered box office hit to explain the uptick in sightings.  I came a way with a handful of B movies, none with a rating higher than 5.5, but my google searched revealed something very intriguing indeed.
+
+###### Alleged Bigfoot attack in Ape Canyon
+([Alleged Bigfoot attack in Ape Canyon](https://en.wikipedia.org/wiki/Ape_Canyon#Alleged_Bigfoot_attack))
+			
+On July 16, 1924 the Oregonian reported on an alleged violent encounter ‘between a group of miners and a group of  Ape men”
+In 1983, a man named William Halliday, a guy who liked caves and canyons so much he became director of the Western Speleological Survey.  He also seemed to have some domain knowledge on this event as he released a pamphlet called ‘Ape Cave and the Mount Saint Helens Apes’  wherein he outed the real assailants as local youth throwing rocks from the canyons above.  The sun light was behind them, concealing their features and throwing wicked shadows. Thus an urban legend was born.
+I still have no insight as to what caused these two bumps in reported activity, but I do wonder if the uptick in BigFoot interest had Halliday reconsidering his own acts among the caves and canyons of his youth.  
+
+As a last note I came across this interesting tidbit ([FBI release files from 1970's on hair samples](https://youtu.be/1E3XID7z8ZQ))
+###### Spoiler Alert:
+93 year old Peter Byrne, Bigfoot enthusiast finally finds out what happened to the sample of hair he sent into the FBI in 1976.
+The results had been 'lost' in the mail for decades. When the FBI recently released their own Bigfoot file, they revealed Mr. Byrnes sample had been determined to belong to some type of deer.
+
+I bring this up because one astonishing witness account in the data set mirrors Mr. Byrnes experience.
+The account is quite long and detailed.  Report #60 is out of Skagit county, WA and was logged in 1994, the date of the actual sighting is missing and therefore this account is not included in my population for analysis. The report discusses multiple sightings over a period of time.  This entry focuses on two recluse ranchers (brothers) and attacks on their livestock, witness accounts of bi-pedal hairy beasts and the collection of dung which was sent off to the lab for analysis.  The results were, unlike my hypothesis ... inconclusive.
 
 
 
