@@ -2,7 +2,7 @@
 
 *Can Bigfoot sightings be predicted on the fractional amount of moonlight on any given day?*
 
-#### Null Hypothesis:  There is no significant relationship between moon light and Sasquatch sightings
+#### Null Hypothesis:  There is NO significant relationship between moon light and Sasquatch sightings
 
 #### Alternative Hypothesis:  There IS a significant relationship between moonlight and Sasquatch sightings
 
