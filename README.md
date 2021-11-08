@@ -133,7 +133,7 @@ This tells us the brightest and the darkest time of the lunar period are the lea
 
 ![Tableau1](https://github.com/sarifeenah/BigFoot/blob/ed4f8bed4b5e6083e2c0220fa5468180d5313e52/EDA.png)
 
-![Tableau2](https://github.com/sarifeenah/BigFoot/blob/e10ed1a8db9925befee4abcf6e796d0f2ebdd5fb/Story%202.png)								
+![Tableau2](https://github.com/sarifeenah/BigFoot/blob/576c8f8ec0be960cdb78e4b9dc5b9870f97f688e/Story_pg_2.png)								
 			
 					
 								
