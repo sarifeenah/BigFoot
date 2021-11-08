@@ -123,7 +123,7 @@ And that was during a winter night with 98% cloud cover.
 This tells us the brightest and the darkest time of the lunar period are the least likely times to sneak a peek of our hairy friend.	
 
 
-![Tableau1](https://github.com/sarifeenah/BigFoot/blob/e10ed1a8db9925befee4abcf6e796d0f2ebdd5fb/Story%201.png)
+![Tableau1](https://github.com/sarifeenah/BigFoot/blob/ed4f8bed4b5e6083e2c0220fa5468180d5313e52/EDA.png)
 
 ![Tableau2](https://github.com/sarifeenah/BigFoot/blob/e10ed1a8db9925befee4abcf6e796d0f2ebdd5fb/Story%202.png)								
 			
