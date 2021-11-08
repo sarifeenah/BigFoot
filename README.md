@@ -91,24 +91,10 @@ Outcome	Very Significant	the alternative hypothesis is accepted!
 								
 Lets look at some visualizations							
 								
-								
-							
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
+![Mean of moon shine per moon phase](https://github.com/sarifeenah/BigFoot/blob/e3aa691784af800252a60b73c4df877edf09a4c0/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
+![Mean of moon shine per lunar day](https://github.com/sarifeenah/BigFoot/blob/e3aa691784af800252a60b73c4df877edf09a4c0/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
+![Mean of moon shine per sighting](https://github.com/sarifeenah/BigFoot/blob/e3aa691784af800252a60b73c4df877edf09a4c0/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
+									
 								
 1. We can see the fraction of moon light remains constant throughout the lunar phases.								
 2. By confirming how perfectly the lunar days match to the phases of the moon, we can confirm the new moon falls around the 20th of each lunar month and the full moon on the 5th								
