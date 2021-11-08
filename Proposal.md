@@ -15,7 +15,8 @@
 ###### The Z-Test 
 1.0-0.3358059972/.2884055785=zscore 
 ZScore = 2.302985976 
-*Very Significant, the alternative hypothesis is accepted!*
+
+###### *Very Significant, the alternative hypothesis is accepted!*
 
 ## Design Check List
 
@@ -32,7 +33,7 @@ Charts to show changes over time and to compare other variables such as visibili
 
 I will use sets to filter results.
 
-I  create calculated fields for % of total’s overall, sum of sightings, STDEVP reports and a calculation for the Zscore.
+I  will create calculated fields for % of total’s overall, sum of sightings, STDEVP reports and a calculation for the Zscore.
 
 I will create Top 5, 3, and 1 sets to visually show the most and least active times places and conditions for BigFoot sightings
 
@@ -40,8 +41,10 @@ I will create two interactive dashboards
 To represent my exploratory Data Analysis (EDA) and the 2nd to tell the story:
 How to find Sasquatch by Moonlight
 
-The EDA dashboard will allow exploration of my visualization by filtering on Report Class A, B, C.
+######The EDA dashboard :
+will allow exploration of my visualization by filtering on Report Class A, B, C.
 
+###### How to find Bigfoot by Moonlight dashb oard :
 For a that little extra something, I will prepare a table that includes verbatim reports as submitted by actual witnesses in the field and include this on my Story dashboard
 
 I will connect the Story telling dashboard to my seasonal sighting chart with my Top and Bottom sets, the verbatim stories and a  ZScore chart of higher than average sightings by state.
