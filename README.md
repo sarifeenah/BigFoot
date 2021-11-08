@@ -37,7 +37,7 @@ Thinking about how to solve the BIG ISSUE, brought me to my real BIG QUESTION.  
 HOW to match the Lunar Cycle to Diurnal information when there is no record of TIME in the dataset?                                        									
 This is where my determined nature paid off. I could have seen the issue with the time stamps and ditched the whole thing in favour of an easier, cleaner data set. But, that just isn't how I roll.  I like roads less travelled and poking mysterious things just to see what that might do. As far as I could tell, this data set was the one for me.														
 									
-* The Big Question:		
+* The BIG QUESTION:		
 							
 Can the date of a past event be determined by the fractional representation of Moon Light recorded on the day of the event?									
 The answer is Yes!									
@@ -53,18 +53,22 @@ It worked!
 						
 The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  And that day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join.									
 This will cause some issues with months that have thirty days that I will have to solve.																
-# To determine A DATE by Moon Light									
+# CHAPTER TWO
+
+The big big question is a bit out of the scope for this project. Which brings me to the planning stage of CHAPTER TWO
+******HOW To determine A DATE by Moon Light									
 The new moon repeats every 29.53 days which is slightly out of sync with its rotational period around us on earth (27.32 days)									
 But if you know a past New Moon Date you can determine a future Full Moon date by determining how much time will have elapsed  between the two events and dividing that number by 29.53, the lunar period.									
 I will need to use a DATEDIFF function to find the elapsed time									
 Number of New Moons = Days since New / 29.53									
 									
-* The Hypothesis!									
-A rate of probability for Big Foot sightings can be measured and predicted based on the fractional representation of moon light falling on the earth on any given day.									
+# Back to the task at hand
+###### The Hypothesis!									
+My hypothesis:  the rate of probability for Big Foot sightings can be measured and predicted based on the fractional representation of moon light falling on the earth on any given day.									
 									
 					
-The null hypothesis:  There is no significant relationship :(								
-Alternative hypothesis: There is a significant relationship :)								
+The null hypothesis:  There is NO significant relationship :(								
+Alternative hypothesis: There IS a significant relationship :)								
 								
 SIGNIFICANCE 								
 To determine what, if any significance there is between the fractional representation of lunar light and the day of reported sightings, 		I calculated the mean, median, mode, standard deviation, variance, zscore and quartiles using google sheets	
@@ -98,10 +102,10 @@ In this case as follows: 1.0-0.3358059972/.2884055785=zscore
 if the value of z is greater than 1.96 or less than -1.96, the null hypothesis is rejected. 								
 The null hypothesis states that there is little to no significance between the two variables								
 								
-The Z-Test								
+###### The Z-Test								
 1.0-0.3358059972/.2884055785=zscore								
 ZScore =	2.302985976							
-Outcome	Very Significant, the alternative hypothesis is accepted!						
+###### Outcome is Very Significant, the alternative hypothesis is accepted!						
 								
 # Lets look at some visualizations							
 								
