@@ -60,7 +60,7 @@ The *big BIG question* is a bit out of the scope for this project.
 Which brings me to the planning stage of CHAPTER TWO which I will touch on briefly:
 
 # CHAPTER TWO
-######HOW To determine A DATE by Moon Light									
+###### HOW To determine A DATE by Moon Light									
 The new moon repeats every 29.53 days which is slightly out of sync with its rotational period around us on earth (27.32 days)									
 But if you know a past New Moon Date you can determine a future Full Moon Date by determining how much time will have elapsed  between the two events and dividing that number by 29.53, the lunar period.									
 I will need to use a DATEDIFF function to find the elapsed time	in order to perform the following calculation=								
