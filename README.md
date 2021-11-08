@@ -39,10 +39,10 @@ This is where my determined nature paid off. I could have seen the issue with th
 									
 * The BIG QUESTION:*		
 							
-Can the date of a past event be determined by the fractional representation of Moon Light recorded on the day of the event?									
+Can the DAY of a past event be determined by the fractional representation of Moon Light recorded on the day of the event?									
 The answer is Yes!									
 									
-First, I determined DAY OF MOON by the fractional percentage of moon light on the geocode table.	Because Timothy Renner's data set had the fractional representation of moon shine, I could determine the moon_day according to the amount of moon shine measured (I am literally dancing in my seat with this discovery)									
+First, I determined DAY OF MOON by the fractional percentage of moon light on the geocode table. Because Timothy Renner's data set had the fractional representation of moon shine, I could determine the moon_day according to the amount of moon shine measured (I am literally dancing in my seat with this discovery)									
 Fractional amount of moon light is a more precise way to pinpoint the phase of the moon than day information as the lunar cycle varies around 30 - 24 hour periods, give or take several hours.									
 
 I found a table that broke down the days of the month by the fractional percentage of moon shine.
@@ -68,10 +68,10 @@ I can then plot those lunar periods backwards and forwards and determine a date 
 									
 # Back to the task at hand
 ###### The Hypothesis!									
-My hypothesis:  the rate of probability for Big Foot sightings can be measured and predicted based on the fractional representation of moon light falling on the earth on any given day.									
+My hypothesis:  Bigfoot sightings CAN be predicted on the fractional amount of moonlight on any given day.									
 												
-The null hypothesis:  There is NO significant relationship :(								
-Alternative hypothesis: There IS a significant relationship :)								
+The null hypothesis:  There is NO significant relationship between moonlight and Bigfoot sightings :(								
+Alternative hypothesis: There IS a significant relationship between moonlight and Bigfoot sightings :)								
 								
 SIGNIFICANCE 								
 To determine what, if any significance there is between the fractional representation of lunar light and the day of reported sightings, 		I calculated the mean, median, mode, standard deviation, variance, zscore and quartiles using google sheets	
