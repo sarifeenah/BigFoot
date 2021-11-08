@@ -1,4 +1,4 @@
-# ETL PROCESS (extract, transform, load)							
+## ETL PROCESS (extract, transform, load)							
 							
 loaded bfro._reports.json file into tableau to explore. 							
 took note of col's to join with other tables.							
