@@ -24,6 +24,7 @@ I mean, people have been studying Yeti for centuries and apparently I am not the
 I could have asked any hunter or farmer to learn this; the moon effects animals. Prey and predator alike are affected, however the effects do not always present as one might expect.									
     Song birds who come out on a full moon night and begin filling the air with full throttled love songs.									
     Certain predators avoid full moon nights because of their inability to hide, while their otherwise vigilant prey end up in trap lines on full moon nights.						
+
 There are plenty of sightings, over 4,947 reports across North America between 1921-2021.	
 But to date: no remains, no habitats, no DNA have been confirmed as belonging to the notoriously shy bi-pedal hominid we call The Sasquatch.									
 Other parts of the world have counterparts, such as the Yeti of the Himalayan Mountains and still, no physical evidence of their existence.									
@@ -49,10 +50,10 @@ I found a table that broke down the days of the month by the fractional percenta
 I plopped those values into a column in a new sheet and did a nested IF statement to display the correct moon phase per moon_day (day 1 through 30)									
 It worked!
 									
-But...									
-The lunar cycle is approximately 30 days give or take several hours so I can't use day and moon_day interchangeably nor can I use these fields on a join.									
+						
+The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  And that day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join.									
 This will cause some issues with months that have thirty days that I will have to solve.																
-To determine A DATE by Moon Light									
+# To determine A DATE by Moon Light									
 The new moon repeats every 29.53 days which is slightly out of sync with its rotational period around us on earth (27.32 days)									
 But if you know a past New Moon Date you can determine a future Full Moon date by determining how much time will have elapsed  between the two events and dividing that number by 29.53, the lunar period.									
 I will need to use a DATEDIFF function to find the elapsed time									
@@ -61,35 +62,48 @@ Number of New Moons = Days since New / 29.53
 * The Hypothesis!									
 A rate of probability for Big Foot sightings can be measured and predicted based on the fractional representation of moon light falling on the earth on any given day.									
 									
-									
-The Hypothesis								
-investigating if there is a relationship between bigfoot sightings and the amount of moon light in the atmosphere								
-null hypothesis:  There is no significant relationship								
-Alternative hypothesis: There is a significant relationship 								
+					
+The null hypothesis:  There is no significant relationship :(								
+Alternative hypothesis: There is a significant relationship :)								
 								
 SIGNIFICANCE 								
-To determine what, if any significance there is between the fractional representation of lunar light and the day of reported sightings, 								
- I calculated the mean, median, mode, standard deviation, variance, zscore and quartiles using google sheets								
+To determine what, if any significance there is between the fractional representation of lunar light and the day of reported sightings, 		I calculated the mean, median, mode, standard deviation, variance, zscore and quartiles using google sheets	
+
+Measures of Central Tendency								
+fractional moon light	MEAN	0.3358059972						
+fractional moon light	MEDIAN	0.3358059972						
+fractional moon light	MODE	0.3358059972						
+						
+Measures of Dispersion								
+fractional moon light	STD. DEV	0.2884055785						
+fractional moon light	VARIANCE	0.08317777772	
+
+QUARTILES								
+fractional moon light	1st Quartile	0.0986315154		the least sightings				
+fractional moon light	2nd Quartile	0.196357416						
+fractional moon light	3rd quartile	0.2818494667						
+fractional moon light	4th quartile	0.3358059972		The most sightings	
+
 								
-Full Moon Light								
+# Full Moon Light								
 The highest recorded value in the data set, is 1. 								
 On the 4,395th day of the data set, we find the single sighting to have occured during a full moon								
 We know it was a full moon because the fractional moon light value was recorded as 1. 1 is the highest possible value which only happens under the conditions of a full moon.								
 The sighting took place downriver of Telogia Creek in Wakulla County, Florida.								
 It's interesting to note even though there was a full moon that winter night, there was 98% cloud cover.								
 								
-This calls for a Z-test								
+# This calls for a Z-test								
 (the high value ) - (the mean) / std.deviation = zscore								
 In this case as follows: 1.0-0.3358059972/.2884055785=zscore								
 if the value of z is greater than 1.96 or less than -1.96, the null hypothesis is rejected. 								
 The null hypothesis states that there is little to no significance between the two variables								
 								
-The Test								
- 1.0-0.3358059972/.2884055785=zscore								
+The Z-Test								
+1.0-0.3358059972/.2884055785=zscore								
 ZScore =	2.302985976							
-Outcome	Very Significant	the alternative hypothesis is accepted!						
+Outcome	Very Significant, the alternative hypothesis is accepted!						
 								
-Lets look at some visualizations							
+# Lets look at some visualizations							
 								
 ![Mean of moon shine per moon phase](https://github.com/sarifeenah/BigFoot/blob/e3aa691784af800252a60b73c4df877edf09a4c0/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
 ![Mean of moon shine per lunar day](https://github.com/sarifeenah/BigFoot/blob/e3aa691784af800252a60b73c4df877edf09a4c0/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
@@ -106,26 +120,14 @@ We can also predict the least sightings will take place outside of this range.
 Looking at our quartiles, we can determine that the least sightings occur during the periods with the least light, on the new moon								
 Remembering what we learned about the highest moon shine value in the set, 1.0 indicating the full moon, we also know that only one sighting ever occurred on the full moon.  								
 And that was during a winter night with 98% cloud cover. 								
-This tells us the brightest and the darkest time of the lunar period are the least likely times to sneak a peek of our hairy friend.								
-								
-QUARTILES								
-fractional moon light	1st Quartile	0.0986315154		the least sightings				
-fractional moon light	2nd Quartile	0.196357416						
-fractional moon light	3rd quartile	0.2818494667						
-fractional moon light	4th quartile	0.3358059972		The most sightings				
-								
-								
-Measures of Central Tendency								
-fractional moon light	MEAN	0.3358059972						
-fractional moon light	MEDIAN	0.3358059972						
-fractional moon light	MODE	0.3358059972						
-								
-Measures of Dispersion								
-fractional moon light	STD. DEV	0.2884055785						
-fractional moon light	VARIANCE	0.08317777772						
-								
-zscore           		2.302985976						
-		2.302985976						
+This tells us the brightest and the darkest time of the lunar period are the least likely times to sneak a peek of our hairy friend.	
+
+
+![Tableau1](https://github.com/sarifeenah/BigFoot/blob/e10ed1a8db9925befee4abcf6e796d0f2ebdd5fb/Story%201.png)
+
+![Tableau2](https://github.com/sarifeenah/BigFoot/blob/e10ed1a8db9925befee4abcf6e796d0f2ebdd5fb/Story%202.png)								
+			
+					
 								
 								
 								
