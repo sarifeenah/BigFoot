@@ -126,6 +126,10 @@ Remembering what we learned about the highest moon shine value in the set, 1.0 i
 And that was during a winter night with 98% cloud cover. 								
 This tells us the brightest and the darkest time of the lunar period are the least likely times to sneak a peek of our hairy friend.	
 
+Please visit my tableau visualizations at the link below, or take a look at the image files, below.
+
+[Find Bigfoot by Moonlight]([Tableau](https://public.tableau.com/views/BigFoot_16363096439910/Story1?:language=en-US&:display_count=n&:origin=viz_share_link))
+
 
 ![Tableau1](https://github.com/sarifeenah/BigFoot/blob/ed4f8bed4b5e6083e2c0220fa5468180d5313e52/EDA.png)
 
