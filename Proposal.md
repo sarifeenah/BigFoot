@@ -6,19 +6,7 @@
 
 #### Alternative Hypothesis:  There IS a significant relationship between moonlight and Sasquatch sightings
 
-#### OUTCOME
-
-*(the high value ) - (the mean) / std.deviation = zscore In this case is as follows:* 1.0-0.3358059972/.2884055785= zscore 
-
-*if the value of z is greater than 1.96 or less than -1.96, the null hypothesis is rejected.*
-
-###### The Z-Test 
-1.0-0.3358059972/.2884055785=zscore 
-ZScore = 2.302985976 
-
-###### *Very Significant, the alternative hypothesis is accepted!*
-
-## Design Check List
+# Design Check List
 
 In order to explore this topic I will need to determine: 
 1. Measures of Central Tendency
@@ -41,12 +29,23 @@ I will create two interactive dashboards
 To represent my exploratory Data Analysis (EDA) and the 2nd to tell the story:
 How to find Sasquatch by Moonlight
 
-######The EDA dashboard :
+## The EDA dashboard :
 will allow exploration of my visualization by filtering on Report Class A, B, C.
 
-###### How to find Bigfoot by Moonlight dashb oard :
-For a that little extra something, I will prepare a table that includes verbatim reports as submitted by actual witnesses in the field and include this on my Story dashboard
-
+## How to find Bigfoot by Moonlight dashboard :
 I will connect the Story telling dashboard to my seasonal sighting chart with my Top and Bottom sets, the verbatim stories and a  ZScore chart of higher than average sightings by state.
 
 This will allow the reader to click on my Sasquatch icon symbols and see the changes in data by season, state and lunar date.
+
+For a that little extra something, I will prepare a table that includes verbatim reports as submitted by actual witnesses in the field and include this on my Story dashboard
+
+# OUTCOME
+
+*(the high value ) - (the mean) / std.deviation = zscore In this case is as follows:* 1.0-0.3358059972/.2884055785= zscore 
+
+*if the value of z is greater than 1.96 or less than -1.96, the null hypothesis is rejected.*
+
+## The Z-Test 
+1.0-0.3358059972/.2884055785=zscore 
+ZScore = 2.302985976 
+### Very Significant, the alternative hypothesis is accepted!
