@@ -118,16 +118,15 @@ ZScore =	2.302985976
 									
 								
 1. We can see the fraction of moon light remains constant throughout the lunar phases.								
-2. By confirming how perfectly the lunar days match to the phases of the moon, we can confirm the new moon falls around the 20th of each lunar month and the full moon on the 5th								
+2. By confirming how perfectly the lunar days match to the phases of the moon, we can confirm the new moon falls around the 20th of each calendar month and the full moon falls on or around the 5th. * Note: these dates move incrementally throughout time as a lunar month is approximately 30 days give or take a few hours in either direction.*								
 								
 3. We can also see that the average fraction of moon shine per sighting remains between .44 and .54								
 And can predict the most sightings will fall during the first quarter phase and the waning gibbous phase								
 We can also predict the least sightings will take place outside of this range.								
 								
 Looking at our quartiles, we can determine that the least sightings occur during the periods with the least light, on the new moon								
-Remembering what we learned about the highest moon shine value in the set, 1.0 indicating the full moon, we also know that only one sighting ever occurred on the full moon.  								
-And that was during a winter night with 98% cloud cover. 								
-This tells us the brightest and the darkest time of the lunar period are the least likely times to sneak a peek of our hairy friend.	
+Remembering what we learned about the highest moon shine value in the set, 1.0 indicating the full moon, we also know that only one sighting ever occurred on the full moon.  And that was during a winter night with 98% cloud cover. 								
+This tells us the brightest and the darkest time of the lunar month are the least likely times to sneak a peek of our hairy friend.	
 
 
 
