@@ -1,0 +1,53 @@
+# ETL PROCESS (extract, transform, load)							
+							
+loaded bfro._reports.json file into tableau to explore. 							
+took note of col's to join with other tables.							
+exported as .csv file							
+loaded bfro.json.csv files along with locations and geocoded csv s into sheets							
+extracted dates on all three							
+noticed time stamp was incorrect all at 12:00 deleted col, kept day month year							
+							
+geocoded csv cleaning							
+deleted empty rows							
+removed duplicates							
+split report_title into 2 col's, report_number & report_description.  Deleted report_description as it was in another table.							
+deleted precip_intensity col not needed							
+noticed only date included was a col called day and the rows were sporadic with numbered days only, changed format to string							
+I kept the col 'day' because when filtered AZ on all three sheets, report_number, class and day were consistent and matching.							
+deleted col's I didn't need: temperature_hightemperature_midtemperature_lowdew_pointhumidity							
+created new columns to calculate mean, median, mode, std. deviation, variance and quantiles of the fractional moon light  per each recorded sighting							
+copied values to new col's and delected the calculated col's							
+							
+Created new tab called quartiles							
+copied values over to new tab for safe keeping							
+							
+bfro_locations cleaning							
+found and replaced all characters after dates in timestamp, as the time was incorrect at 12:00:00 for all incidences.							
+extracted day, month, year from what was left							
+copied and pasted values only into new col's, deleted extracted col's							
+split report_title into 2 col's, report_number & kept report_description				<--- to match on geocoded table			
+							
+bfro_reports cleaning							
+date was 1974-09-20, and timestamp 1974-09-20T12:00:00Z							
+extracted date to day month year, deleted timestamp as it didn't give time							
+changed dates to strings so can match to geocoded table							
+cleaned up col names for clarity, changed year to string							
+deleted col's nearest town and nearest rd.  I have latitude, longitude, county and country							
+							
+moon calendar cleaning		<--- not sure I am going to use this table					
+I extracted the date and time from time stamp to their own col's							
+copied the values to new col's and deleted the extracted cols							
+I then deleted all rows before the dat4e of 1921 and after the date of 2021 to match the year data I have for bigfoot sightings							
+							
+I changed the names on all tabs							
+reports							
+locations							
+geocode							
+full_moon_cal							
+and created a new one							
+moon_days	<-- I determined each day of the moonth by the fractional representation of the moon shine off of the geocode table.						
+Looking again at the columns on different tables I've confirmed each table has matching report number id's to match on. 							
+I marked the col's 'season' on two tables, i can get rid of one							
+Fields to join on in tablau will be record_number, day, and class							
+some columns were duplicated on geocode, locations and reports. I deleted as seemed appropriate.  							
+							
