@@ -24,24 +24,20 @@ My twitter bio proclaims I'm a data analyst with a taste of the obscure (or was 
 									
 Pretty quickly, I mean really quickly without collecting or cleaning any data I learned that yes, of course I could predict which phase of the moon is best to catch a glimpse of the elusive beast.									
 I mean, people have been studying Yeti for centuries and apparently I am not the first person to ponder this question.  In this century, we have things like radar and isotopes and DNA analysis.  Of course people have peeked to see if the moon has any behavioural affects on the mighty Big Foot.									
-
-I could have asked any hunter or farmer to learn this; the moon effects animals. Prey and predator alike are affected, however the effects do not always present as one might expect.									
-    Song birds who come out on a full moon night and begin filling the air with full throttled love songs.									
-    Certain predators avoid full moon nights because of their inability to hide, while their otherwise vigilant prey end up in trap lines on full moon nights.						
-
 There are plenty of sightings, over 4,947 reports across North America between 1921-2021.	
 But to date: no remains, no habitats, no DNA have been confirmed as belonging to the notoriously shy bi-pedal hominid we call The Sasquatch.									
-Other parts of the world have counterparts, such as the Yeti of the Himalayan Mountains and still, no physical evidence of their existence.									
+Other parts of the world have counterparts, such as the Yeti of the Himalayan Mountains and yet, no physical evidence of their existence has turned up either.									
 									
 With these questions in mind, I began cleaning my data. (see notes on ETL in addendum for more info on that process)									
-I got through some minor hurdles, was feeling good.  Had some idea's in mind.  Went a little deeper. Thats when I recognized the BIG ISSUE									
-Thinking about how to solve the BIG ISSUE, brought me to my real BIG QUESTION.  Thinking on my big question brought me to my HYPOTHESIS.									
+I got through some minor hurdles, and was feeling good.  I had some idea's in mind.  I went a little deeper and thats when I recognized the BIG ISSUE.									
+Thinking about how to solve the BIG ISSUE, brought me to my real BIG QUESTION.  
+Thinking on my big question brought me to my HYPOTHESIS.									
 									
-* The BIG ISSUE :
+* The BIG ISSUE :*
 HOW to match the Lunar Cycle to Diurnal information when there is no record of TIME in the dataset?                                        									
 This is where my determined nature paid off. I could have seen the issue with the time stamps and ditched the whole thing in favour of an easier, cleaner data set. But, that just isn't how I roll.  I like roads less travelled and poking mysterious things just to see what that might do. As far as I could tell, this data set was the one for me.														
 									
-* The BIG QUESTION:		
+* The BIG QUESTION:*		
 							
 Can the date of a past event be determined by the fractional representation of Moon Light recorded on the day of the event?									
 The answer is Yes!									
@@ -54,17 +50,22 @@ I found a table that broke down the days of the month by the fractional percenta
 I plopped those values into a column in a new sheet and did a nested IF statement to display the correct moon phase per moon_day (day 1 through 30)									
 It worked!
 									
-						
-The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  And that day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join.									
-This will cause some issues with months that have thirty days that I will have to solve.																
-# CHAPTER TWO
+#### A NOTE ON THE LUNAR CALENDAR						
+The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  That first day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join.									
+This will cause some issues with months that have thirty one days that I will have to solve at another time.  
+*For the scope of this project I am working with the lunar month days.*  
+Day 1 of a lunar period coincides with the day AFTER the New Moon which does not match our diurnal calendars				
 
-The big big question is a bit out of the scope for this project. Which brings me to the planning stage of CHAPTER TWO
-******HOW To determine A DATE by Moon Light									
+The *big BIG question* is a bit out of the scope for this project. 
+Which brings me to the planning stage of CHAPTER TWO which I will touch on briefly:
+
+# CHAPTER TWO
+######HOW To determine A DATE by Moon Light									
 The new moon repeats every 29.53 days which is slightly out of sync with its rotational period around us on earth (27.32 days)									
-But if you know a past New Moon Date you can determine a future Full Moon date by determining how much time will have elapsed  between the two events and dividing that number by 29.53, the lunar period.									
-I will need to use a DATEDIFF function to find the elapsed time									
-Number of New Moons = Days since New / 29.53									
+But if you know a past New Moon Date you can determine a future Full Moon Date by determining how much time will have elapsed  between the two events and dividing that number by 29.53, the lunar period.									
+I will need to use a DATEDIFF function to find the elapsed time	in order to perform the following calculation=								
+Days since New Moon / 29.53(lunar period) = the number of lunar periods that have passed.
+I can then plot those lunar periods backwards and forwards and determine a date of a past event in this manner.
 									
 # Back to the task at hand
 ###### The Hypothesis!									
