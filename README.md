@@ -53,8 +53,7 @@ It worked!
 #### A NOTE ON THE LUNAR CALENDAR						
 The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  That first day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join.									
 This will cause some issues with months that have thirty one days that I will have to solve at another time.  
-*For the scope of this project I am working with the lunar month days.*  
-Day 1 of a lunar period coincides with the day AFTER the New Moon which does not match our diurnal calendars				
+*For the scope of this project I am only working with the lunar month days.*  	
 
 The *big BIG question* is a bit out of the scope for this project. 
 Which brings me to the planning stage of CHAPTER TWO which I will touch on briefly:
@@ -70,8 +69,7 @@ I can then plot those lunar periods backwards and forwards and determine a date 
 # Back to the task at hand
 ###### The Hypothesis!									
 My hypothesis:  the rate of probability for Big Foot sightings can be measured and predicted based on the fractional representation of moon light falling on the earth on any given day.									
-									
-					
+												
 The null hypothesis:  There is NO significant relationship :(								
 Alternative hypothesis: There IS a significant relationship :)								
 								
