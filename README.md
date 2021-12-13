@@ -1,27 +1,26 @@
-# BigFoot
-An exploratory data analysis, and visualization on the relationship between fractional moon light, and the frequency of Big Foot sightings
-
 # FINDING BIGFOOT BY FOLLOWING THE MOON									
-Analysis by Sareenah Laing	
+Analysis by S.R. Laing	
+<p>I've been tooling around with UFO data scraped from NUFORC and generously offered up on Kaggle, I figured a project on Bigfoot would fit the vibe of my small but growing portfolio. My twitter bio proclaims I'm a data analyst with a taste of the obscure (or was that absurd?) Either way, it fits.</p>
+I began this project with the germ of an idea, a silly, fun, easy whip this off in two days kind of idea. 
+It all started with a day dream of chasing Sasquatches across the Pacific North-West via my tableau. I promptly fell down a celestial rabbit hole, and stayed there for rather more than two days. 	 
 
-*Please visit my tableau visualizations at the link below, or take a look at the image files at the bottom of this README*
+
+### Visit my Interactive tableau dashboards at the link below
 
 ([Find Bigfoot by Moonlight](https://public.tableau.com/views/BigFoot_16363096439910/Story1?:language=en-US&:display_count=n&:origin=viz_share_link))
-									
-									
-I began this project with the germ of an idea.  A silly idea,  fun, easy whip this off in two days kind of thing. 
 
-I promptly fell down a celestial rabbit hole, and have been here for rather more than two days. 	
+![BFEDAtmp](https://user-images.githubusercontent.com/90716926/145884075-f6cca8e8-4399-4331-893e-67d7c0bfb173.png)
 								
-I started with a day dream of chasing Sasquatches across the Pacific North-West via my tableau.  Following this day dream, I stumbled upon my BIG QUESTION							
-Actually, two big questions.									
+While navigating the dataset, I took special interest in the geocode tables. These tables recorded such things as the amount of cloud cover, precipitation, uv index, visibility and fractional moon light as recorded at the time of the reported sighting. 
+
+This is where I stumbled upon my BIG QUESTION							
+Actually, two big questions.										
+								
 									
 # The first big question was:
 Could I predict the likeliest dates for Bigfeet sightings by charting the moon?	
 								
-I've been tooling with data scraped from NUFORC and generously offered up on Kaggle, I figured this would fit the vibe of my small but growing portfolio.   									
-My twitter bio proclaims I'm a data analyst with a taste of the obscure (or was that absurd?) Either way, it fits.									
-									
+						
 Pretty quickly, I mean really quickly without collecting or cleaning any data I learned that yes, of course I could predict which phase of the moon is best to catch a glimpse of the elusive beast.									
 I mean, people have been studying Yeti for centuries and apparently I am not the first person to ponder this question.  In this century, we have things like radar and isotopes and DNA analysis.  Of course people have peeked to see if the moon has any behavioural affects on the mighty Big Foot.									
 There are plenty of sightings, over 4,947 reports across North America between 1921-2021.	
@@ -33,12 +32,11 @@ I got through some minor hurdles, and was feeling good.  I had some idea's in mi
 Thinking about how to solve the BIG ISSUE, brought me to my real BIG QUESTION.  
 Thinking on my big question brought me to my HYPOTHESIS.									
 									
-* The BIG ISSUE :*
+* The BIG ISSUE :
 HOW to match the Lunar Cycle to Diurnal information when there is no record of TIME in the dataset?                                        									
 This is where my determined nature paid off. I could have seen the issue with the time stamps and ditched the whole thing in favour of an easier, cleaner data set. But, that just isn't how I roll.  I like roads less travelled and poking mysterious things just to see what that might do. As far as I could tell, this data set was the one for me.														
 									
-* The BIG QUESTION:*		
-							
+* The BIG QUESTION:		
 Can the DAY of a past event be determined by the fractional representation of Moon Light recorded on the day of the event?									
 The answer is Yes!									
 									
@@ -136,31 +134,30 @@ One thing that caught my eye were two time periods.  The late 70's early 80's ha
 
 ![Sightings over time](https://github.com/sarifeenah/BigFoot/blob/774e4f4e72f5b85e9fd9aea62235c2639834cc43/Sightings%20over%20time.png)
 
-I found this intriguing and decided to see if media had anything to do with the jumps. Thinking of the infamous Patterson-Gimlin film, I went to wikipedia and learned it was first released into the wild in 1967. A full decade before the time period in question.  My mind then scurried off to Harry and the Henderson's.  When I checked that title, I saw the series didn't air until the late 80's.  Outside of the time bump.  
+I found this intriguing and decided to see if media had anything to do with the jumps. Thinking of the infamous Patterson-Gimlin film. I went to wikipedia and learned it was first released into the wild in 1967. A full decade before the time period in question.  
 
+By <a href="//en.wikipedia.org/wiki/Patterson%E2%80%93Gimlin_film" title="Patterson–Gimlin film">Patterson–Gimlin film</a>, Fair use, <a href="https://en.wikipedia.org/w/index.php?curid=434396">Link</a>
+
+![Patterson–Gimlin_film_frame_352](https://user-images.githubusercontent.com/90716926/145883697-88263654-1b6a-4e16-87e7-9c89eb23c528.jpg)
+
+My mind then scurried off to Harry and the Henderson's.  When I checked that title, I saw the series didn't air until the late 80's.  Outside of the time bump.  
 I realized I was on the precipice of yet another rabbit hole when I began searching the IMDB for terms like Bigfoot, Sasquatch and Yeti looking for some kind of star powered box office hit to explain the uptick in sightings.  I came a way with a handful of B movies, none with a rating higher than 5.5, but my google searched revealed something very intriguing indeed.
 
-###### Alleged Bigfoot attack in Ape Canyon
+### Alleged Bigfoot attack in Ape Canyon
 ([Alleged Bigfoot attack in Ape Canyon](https://en.wikipedia.org/wiki/Ape_Canyon#Alleged_Bigfoot_attack))
 			
-On July 16, 1924 the Oregonian reported on an alleged violent encounter ‘between a group of miners and a group of  Ape men”
-In 1983, a man named William Halliday, a guy who liked caves and canyons so much he became director of the Western Speleological Survey.  He also seemed to have some domain knowledge on this event as he released a pamphlet called ‘Ape Cave and the Mount Saint Helens Apes’  wherein he outed the real assailants as local youth throwing rocks from the canyons above.  The sun light was behind them, concealing their features and throwing wicked shadows. Thus an urban legend was born.
-I still have no insight as to what caused these two bumps in reported activity, but I do wonder if the uptick in BigFoot interest had Halliday reconsidering his own acts among the caves and canyons of his youth.  
+On July 16, 1924 the Oregonian reported on an alleged violent encounter ‘between a group of miners and a group of  Ape men”, resulting in the death of an ape man, by bullet wound.
+
+Nearly sixty years later a man named William Halliday born only two years after the infamous tale was printed in the Oregonian,  appeared to have some inside knowledge on this event. In 1983, now the director of the Western Speleological Survey,Halliday released a pamphlet called **‘Ape Cave and the Mount Saint Helens Apes’**  wherein he outed the real assailants as local youth throwing rocks from the canyons above.  The sun light was behind them, concealing their features and throwing wicked shadows. Thus an urban legend was born.
+<p>I still have no insight as to what caused these two bumps in reported activity, but I do wonder if the uptick in BigFoot interest created a sense of urgency in William to set the record straight. </p>
 
 As a last note I came across this interesting tidbit ([FBI release files from 1970's on hair samples](https://youtu.be/1E3XID7z8ZQ))
-###### Spoiler Alert:
+### Spoiler Alert:
 93 year old Peter Byrne, Bigfoot enthusiast finally finds out what happened to the sample of hair he sent into the FBI in 1976.
 The results had been 'lost' in the mail for decades. When the FBI recently released their own Bigfoot file, they revealed Mr. Byrnes sample had been determined to belong to some type of deer.
 
 I bring this up because one astonishing witness account in the data set mirrors Mr. Byrnes experience.
-The account is quite long and detailed.  Report #60 is out of Skagit county, WA and was logged in 1994, the date of the actual sighting is missing and therefore this account is not included in my population for analysis. The report discusses multiple sightings over a period of time.  This entry focuses on two recluse ranchers (brothers) and attacks on their livestock, witness accounts of bi-pedal hairy beasts and the collection of dung which was sent off to the lab for analysis.  The results were, unlike my hypothesis ... inconclusive.
-
-
-
-![Tableau1](https://github.com/sarifeenah/BigFoot/blob/ed4f8bed4b5e6083e2c0220fa5468180d5313e52/EDA.png)
-
-![Tableau2](https://github.com/sarifeenah/BigFoot/blob/576c8f8ec0be960cdb78e4b9dc5b9870f97f688e/Story_pg_2.png)								
-			
+The account is quite long and detailed.  Report #60 is out of Skagit county, WA and was logged in 1994, the date of the actual sighting is missing and therefore this account is not included in my population for analysis. The report discusses multiple sightings over a period of time.  This entry focuses on two recluse ranchers (brothers) and attacks on their livestock, witness accounts of bi-pedal hairy beasts and the collection of dung which was sent off to the lab for analysis.  <p>The results were, unlike my hypothesis ... **inconclusive.**	</p>	
 					
 								
 								
