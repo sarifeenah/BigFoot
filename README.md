@@ -2,7 +2,7 @@
 Analysis by S.R. Laing	
 <p>I've been tooling around with UFO data scraped from NUFORC and generously offered up on Kaggle, I figured a project on Bigfoot would fit the vibe of my small but growing portfolio. My twitter bio proclaims I'm a data analyst with a taste of the obscure (or was that absurd?) Either way, it fits.</p>
 I began this project with the germ of an idea, a silly, fun, easy whip this off in two days kind of idea. 
-It all started with a day dream of chasing Sasquatches across the Pacific North-West via my tableau. I promptly fell down a celestial rabbit hole, and stayed there for rather more than two days. 	 
+It all started with a day dream of chasing Sasquatches across the Pacific North-West via my tableau. I promptly fell down a celestial rabbit hole, and stayed there for the better part of a week! 	 
 
 
 ### Visit my Interactive tableau dashboards at the link below
