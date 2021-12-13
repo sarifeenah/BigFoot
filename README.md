@@ -157,7 +157,9 @@ As a last note I came across this interesting tidbit ([FBI release files from 19
 The results had been 'lost' in the mail for decades. When the FBI recently released their own Bigfoot file, they revealed Mr. Byrnes sample had been determined to belong to some type of deer.
 
 I bring this up because one astonishing witness account in the data set mirrors Mr. Byrnes experience.
-The account is quite long and detailed.  Report #60 is out of Skagit county, WA and was logged in 1994, the date of the actual sighting is missing and therefore this account is not included in my population for analysis. The report discusses multiple sightings over a period of time.  This entry focuses on two recluse ranchers (brothers) and attacks on their livestock, witness accounts of bi-pedal hairy beasts and the collection of dung which was sent off to the lab for analysis.  <p>The results were, unlike my hypothesis ... **inconclusive.**	</p>	
+The account is quite long and detailed.  Report #60 is out of Skagit county, WA and was logged in 1994, the date of the actual sighting is missing and therefore this account is not included in my population for analysis. The report discusses multiple sightings over a period of time.  This entry focuses on two recluse ranchers (brothers) and attacks on their livestock, witness accounts of bi-pedal hairy beasts and the collection of dung which was sent off to the lab for analysis.  
+
+The results were, unlike my hypothesis ... **inconclusive.**		
 					
 								
 								
