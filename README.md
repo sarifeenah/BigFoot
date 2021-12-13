@@ -1,5 +1,5 @@
 # BigFoot
-An exploratory data analysis on the relationship between fractional moon light, and the frequency of Big Foot sightings
+An exploratory data analysis, and visualization on the relationship between fractional moon light, and the frequency of Big Foot sightings
 
 # FINDING BIGFOOT BY FOLLOWING THE MOON									
 Analysis by Sareenah Laing	
