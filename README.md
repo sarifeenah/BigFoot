@@ -1,4 +1,4 @@
-# FINDING BIGFOOT BY FOLLOWING THE MOON									
+# FINDING BIGFOOT BY MOONLIGHT								
 Analysis by S.R. Laing	
 <p>I've been tooling around with UFO data scraped from NUFORC and generously offered up on Kaggle, I figured a project on Bigfoot would fit the vibe of my small but growing portfolio. My twitter bio proclaims I'm a data analyst with a taste of the obscure (or was that absurd?) Either way, it fits.</p>
 I began this project with the germ of an idea, a silly, fun, easy whip this off in two days kind of idea. 
