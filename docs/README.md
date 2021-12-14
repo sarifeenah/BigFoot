@@ -113,6 +113,7 @@ ZScore =	2.302985976
 # Lets look at some visualizations							
 								
 ![Mean of moon shine per moon phase](/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
+![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/2aed18b3b7352f91e36753f1c72896e09476d898/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
 
 ![Mean of moon shine per lunar day](/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
 
