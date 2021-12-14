@@ -112,15 +112,12 @@ ZScore =	2.302985976
 								
 # Lets look at some visualizations							
 								
-![Mean of moon shine per moon phase](/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
-![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/main/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
-![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/2aed18b3b7352f91e36753f1c72896e09476d898/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
+![Mean of moon shine per moon phase](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/ba8007c4a8ed002c1ef44bff975cbfa3d5100cbc/docs/mean_of_moon_shine.png)
 
-![Mean of moon shine per lunar day](/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
-![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/1a4769388e70afe43c8da7c2d3d0489b434e6264/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
+![Mean of moon shine per lunar day](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/ba8007c4a8ed002c1ef44bff975cbfa3d5100cbc/docs/mean_of_moon_shine_per_lunar_day.png)
 
-![Avg of moon shine per sighting](/docs/images/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
-![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/9991a1426c55ed4658f7212deacbc1a3cbcb2659/docs/images/avg_moon_shine_per_sighting.png)
+![Avg of moon shine per sighting](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/ba8007c4a8ed002c1ef44bff975cbfa3d5100cbc/docs/avg_moon_shine_per_sighting.png)
+
 									
 								
 1. We can see the fraction of moon light remains constant throughout the lunar phases.								
@@ -140,8 +137,7 @@ We know the brightest and the darkest time of the lunar month are the least like
 One thing that caught my eye were two time periods.  The late 70's early 80's had a small bump in reported sightings that mirror a much larger bump in the early '00's as you can see below.  
 
 
-![Sightings over time](/docs/images/Sightings%20over%20time.png)
-![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/1a4769388e70afe43c8da7c2d3d0489b434e6264/docs/images/Sightings%20over%20time.png)
+![Sightings over time](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/ba8007c4a8ed002c1ef44bff975cbfa3d5100cbc/docs/sightings_over_time.png)
 
 I found this intriguing and decided to see if media had anything to do with the jumps. Thinking of the infamous Patterson-Gimlin film. I went to wikipedia and learned it was first released into the wild in 1967. A full decade before the time period in question.  
 
