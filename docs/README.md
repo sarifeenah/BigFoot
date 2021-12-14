@@ -112,11 +112,11 @@ ZScore =	2.302985976
 								
 # Lets look at some visualizations							
 								
-![Mean of moon shine per moon phase](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/fbd2728ee92b7b7977841a23dab3dbd53bf60d67/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
+![Mean of moon shine per moon phase](/docs/images/1.%20Mean%20of%20Moon%20Shine%20per%20Moon%20Phase.png)
 
-![Mean of moon shine per lunar day](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/fbd2728ee92b7b7977841a23dab3dbd53bf60d67/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
+![Mean of moon shine per lunar day](/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
 
-![Mean of moon shine per sighting](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/fbd2728ee92b7b7977841a23dab3dbd53bf60d67/docs/images/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
+![Mean of moon shine per sighting](/docs/images/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
 									
 								
 1. We can see the fraction of moon light remains constant throughout the lunar phases.								
@@ -136,7 +136,7 @@ We know the brightest and the darkest time of the lunar month are the least like
 One thing that caught my eye were two time periods.  The late 70's early 80's had a small bump in reported sightings that mirror a much larger bump in the early '00's as you can see below.  
 
 
-![Sightings over time](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/fbd2728ee92b7b7977841a23dab3dbd53bf60d67/docs/images/Sightings%20over%20time.png)
+![Sightings over time](/docs/images/Sightings%20over%20time.png)
 
 I found this intriguing and decided to see if media had anything to do with the jumps. Thinking of the infamous Patterson-Gimlin film. I went to wikipedia and learned it was first released into the wild in 1967. A full decade before the time period in question.  
 
