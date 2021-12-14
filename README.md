@@ -40,7 +40,7 @@ This is where my determined nature paid off. I could have seen the issue with th
 Can the DAY of a past event be determined by the fractional representation of Moon Light recorded on the day of the event?									
 The answer is Yes!									
 									
-First, I determined DAY OF MOON by the fractional percentage of moon light on the geocode table. Because Timothy Renner's data set had the fractional representation of moon shine, I could determine the moon_day according to the amount of moon shine measured (I am literally dancing in my seat with this discovery)									
+First, I determined DAY OF MOON by the fractional percentage of moon light on the geocode table. Because Timothy Renner's data set had the fractional representation of moon shine, I could determine the moon_day according to the amount of moon shine measured.									
 Fractional amount of moon light is a more precise way to pinpoint the phase of the moon than day information as the lunar cycle varies around 30 - 24 hour periods, give or take several hours.									
 
 I found a table that broke down the days of the month by the fractional percentage of moon shine.
@@ -49,7 +49,7 @@ I plopped those values into a column in a new sheet and did a nested IF statemen
 It worked!
 									
 #### A NOTE ON THE LUNAR CALENDAR						
-The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  That first day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join.									
+The lunar cycle is approximately 30 days give or take several hours. Day 1 of the lunar cycle is the first day after the new moon.  That first day can fall anywhere within the calendar month.  For this reason, I can't use day and moon_day interchangeably nor can I use these fields on a join. 
 This will cause some issues with months that have thirty one days that I will have to solve at another time.  
 *For the scope of this project I am only working with the lunar month days.*  	
 
@@ -60,7 +60,7 @@ Which brings me to the planning stage of CHAPTER TWO which I will touch on brief
 ###### HOW To determine A DATE by Moon Light									
 The new moon repeats every 29.53 days which is slightly out of sync with its rotational period around us on earth (27.32 days)									
 But if you know a past New Moon Date you can determine a future Full Moon Date by determining how much time will have elapsed  between the two events and dividing that number by 29.53, the lunar period.									
-I will need to use a DATEDIFF function to find the elapsed time	in order to perform the following calculation=								
+I will need to use a DATEDIFF function to find the elapsed time	in order to perform the following calculation								
 Days since New Moon / 29.53(lunar period) = the number of lunar periods that have passed.
 I can then plot those lunar periods backwards and forwards and determine a date of a past event in this manner.
 									
@@ -92,8 +92,10 @@ fractional moon light	4th quartile	0.3358059972		The most sightings
 								
 # Full Moon Light								
 The highest recorded value in the data set, is 1. 								
-On the 4,395th day of the data set, we find the single sighting to have occured during a full moon								
-We know it was a full moon because the fractional moon light value was recorded as 1. 1 is the highest possible value which only happens under the conditions of a full moon.								
+
+On the 4,395th day of the data set, we find the single sighting to have occured during a full moon.								
+> We know it was a full moon because the fractional moon light value was recorded as 1, and 1 is the highest possible value which only happens under the conditions of a full moon.
+> 								
 The sighting took place downriver of Telogia Creek in Wakulla County, Florida.								
 It's interesting to note even though there was a full moon that winter night, there was 98% cloud cover.								
 								
