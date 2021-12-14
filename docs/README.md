@@ -119,8 +119,8 @@ ZScore =	2.302985976
 ![Mean of moon shine per lunar day](/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
 ![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/1a4769388e70afe43c8da7c2d3d0489b434e6264/docs/images/2.%20Mean%20of%20Moon%20SHine%20per%20Lunar%20Day.png)
 
-![Mean of moon shine per sighting](/docs/images/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
-![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/1a4769388e70afe43c8da7c2d3d0489b434e6264/docs/images/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
+![Avg of moon shine per sighting](/docs/images/3.%20Average%20Moon%20Shine%20per%20Sighting%20.png)
+![](https://github.com/slaing77/Finding-Bigfoot_by_moonlight/blob/9991a1426c55ed4658f7212deacbc1a3cbcb2659/docs/images/avg_moon_shine_per_sighting.png)
 									
 								
 1. We can see the fraction of moon light remains constant throughout the lunar phases.								
